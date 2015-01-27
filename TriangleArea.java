@@ -2,7 +2,7 @@
 
   
  
-public class TriangleArrea {
+public class TriangleArea {
 	
 	public Point a,b,c;
 	double ab;
