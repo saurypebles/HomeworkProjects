@@ -17,6 +17,14 @@ public	 Point(double x, double y){
 	 	 xValue=x;
 		 yValue=y;
 	 }
+
+public Point(String input)
+{
+	String [] points=input.split(" ");
+	xValue=Double.parseDouble(points[0]);
+	yValue=Double.parseDouble(points[1]);
+	
+}
 	 
 	public double Distance(Point p){
 	
@@ -32,7 +40,7 @@ public	 Point(double x, double y){
 	/*public static void main(String[] args) {
 		// TODO Auto-generated method stub
 		
-		Point a=new Point();
+		Point a=new Point("12.9 11");
 		
 		Point nul=new Point(0.0,0.0);
 		//p.Print();
